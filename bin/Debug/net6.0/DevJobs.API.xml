@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevJobs.API</name>
+    </assembly>
+    <members>
+        <member name="M:DevJobs.API.Controllers.JobApplicationsController.Post(System.Int32,DevJobs.API.Models.AddJobApplicationInputModel)">
+            <summary>
+            Se aplicar para a vaga de emprego.
+            </summary>
+            <param name="id">Identificador</param>
+            <param name="model">Dados de quem vai se aplicar para a vaga de emprego.</param>
+            <returns>No Content</returns>
+        </member>
+        <member name="M:DevJobs.API.Controllers.JobVacanciesController.GetAll">
+            <summary>
+            Listagem de todas as vagas de emprego.
+            </summary>
+            <returns>Todas as vagas de emprego cadastradas</returns>
+        </member>
+        <member name="M:DevJobs.API.Controllers.JobVacanciesController.GetById(System.Int32)">
+            <summary>
+            Listar uma vaga de emprego por identificador(id)
+            </summary>
+            <param name="id">Numero identificador da vaga de emprego (id)</param>
+            <returns>Objeto com a vaga de emprego com o numero identificador</returns>
+        </member>
+        <member name="M:DevJobs.API.Controllers.JobVacanciesController.Post(DevJobs.API.Models.AddJobVacancyInputModel)">
+            <summary>
+            Cadastrar uma vaga de emprego.
+            </summary>
+            <remarks>
+            {
+              "title": "Dev .NET Jr",
+              "description": "Vaga para .Net Core",
+              "company": "LuisCompany",
+              "isRemote": true,
+              "salaryRange": "3000 - 5000"
+             }
+            </remarks>
+            <param name="model">Dados da vaga.</param>
+            <returns>Objeto recém-criado.</returns>
+            <response code="201">Sucesso.</response>
+            <response code="400">Dados Invalidos.</response>
+        </member>
+        <member name="M:DevJobs.API.Controllers.JobVacanciesController.Put(System.Int32,DevJobs.API.Models.UpdateJobVacancyInputModel)">
+            <summary>
+            Atualização de dados de uma vaga de emprego.
+            </summary>
+            <remarks>
+            {
+              "title": "Dev Java JR",
+              "description": "Vaga para Java JR"
+            }
+            </remarks>
+            <param name="id">Numero de identificador da vaga de emprego (id)</param>
+            <param name="model">Dados da vaga de emprego.</param>
+            <returns>No Content</returns>
+        </member>
+    </members>
+</doc>
