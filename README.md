@@ -1,5 +1,5 @@
-# Projeto feito na Jornada NET Direto ao Ponto do professor luis_dev
-
+# Projeto feito na Jornada NET Direto ao Ponto
+### Professor: luis_dev
 ## Criação de API REST até deploy em nuvem Microsoft Azure
  APIs REST com .NET 6 <br/>
  Entity Framework Core <br/>
