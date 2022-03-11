@@ -4,6 +4,7 @@ namespace DevJobs.API.Controllers
     using DevJobs.API.Models;
     using DevJobs.API.Persistence.Repositories;
     using Microsoft.AspNetCore.Mvc;
+    using Serilog;
 
     [Route("api/job-vacancies")]
     [ApiController]
@@ -63,6 +64,7 @@ namespace DevJobs.API.Controllers
         /// <response code="400">Dados Invalidos.</response>
         [HttpPost]
         public IActionResult Post(AddJobVacancyInputModel model) {
+            Log.Information("POST JobVacancy chamado");
             var jobVacancy = new JobVacancy(
                 model.Title,
                 model.Description,
