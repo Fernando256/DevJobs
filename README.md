@@ -14,4 +14,4 @@ Desenvolvido por Luis Fernando Paganini
 
 Link publicação: https://devjobs-api-luisf.azurewebsites.net/swagger/
 <br/>
-OBS: O link da publicação pode ser temporário por conta do plano de Estudante Free, e pode expirar em breve ou já ter expirado.
+OBS: O link da publicação pode ser temporário por conta do plano de Estudante Free, com isso pode expirar em breve ou já ter expirado.
